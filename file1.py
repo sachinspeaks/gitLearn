@@ -3,10 +3,10 @@ import time
 print("Starting in file1")
 
 def printTem():
-    print("Started")
+    print("Begin")
     time.sleep(1)
-    print("Done")
+    print("Finish")
 
-thread1=threading.Thread(target=printTem)
+thread2=threading.Thread(target=printTem)
 
-thread1.start()
+thread2.start()
